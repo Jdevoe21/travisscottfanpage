@@ -1,0 +1,79 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+html {
+	background: #1a1a1a;
+	background-image: url("../images/5dfab6ce855cc20c514e79f6.jfif");
+	background-attachment: fixed;
+}
+body {
+	font-family: 'Brush Script MT', cursive;
+	font-size: 120%;
+	width: 100%;
+	margin: 0 auto;
+	color: white;
+}
+header {
+	width: 100%;
+	margin: 0;
+	background-image: url("../images/5dfab6ce855cc20c514e79f6.jfif");
+	border-bottom: 3px ridge #f0f0f5;
+}
+header h1 {
+	font-size: 300%;
+	font-variant: small-caps;
+	padding: .5em 0 0;
+	text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+}
+header h1 a {
+	color: white;
+	text-decoration: none;
+}
+header img {
+	float: left;
+	margin: 1em 1em 1em 2em;
+	max-width: 130px;
+	width: 100%;
+    border-radius: 100px;
+}
+
+
+.nav_menu {
+	border-bottom: 3px ridge #f0f0f5;
+}
+.nav_menu ul {
+	display: flex;
+	list-style-type: none;
+	padding: 0; 
+}
+.nav_menu ul li {
+	width: 25%;
+	background-color: black;
+	margin: 0;
+	text-align: center; 
+	transition: all .75s;
+}
+.nav_menu ul li a {
+	display: inline-block;
+	width: 100%;
+	padding: 10px 0;
+	text-decoration: none;
+	font-size: 120%;
+	color: blue;
+	font-weight: bold;
+	font-variant: small-caps;
+	transition: all .75s;
+}
+.nav_menu ul li a:hover {
+	background-color: blue;
+	color: black;
+}

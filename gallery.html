@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gallery | Travis Scott</title>
+        <link rel="shortcut icon" href="images/face.png">
+        <style>
+        * {
+            margin: 0;
+            padding: 0;
+        box-sizing: border-box;
+        }
+        html {
+            background-image: url("Travis Images/5dfab6ce855cc20c514e79f6.jfif");
+        }
+
+        body {
+        margin: 0;
+        font-family: cursive;
+        }
+
+        header {
+        text-align: center;
+        padding: 32px;
+        color: white;
+        border-bottom: 3px ridge #f0f0f5;
+        }
+        header img{
+            max-width: 130px;
+            width: 100%;
+            border-radius: 100px;
+        }
+        .flex-container {
+            display: flex;
+            flex-wrap: nowrap;
+        }
+        .nav_menu {
+        border-bottom: 3px ridge #f0f0f5;
+        }
+        .nav_menu ul {
+            display: flex;
+            list-style-type: none;
+            padding: 0; 
+        }
+        .nav_menu ul li {
+            width: 25%;
+            background-color: black;
+            margin: 0;
+            text-align: center; 
+            transition: all .75s;
+        }
+        .nav_menu ul li a {
+            display: inline-block;
+            width: 100%;
+            padding: 10px 0;
+            text-decoration: none;
+            font-size: 120%;
+            color: blue;
+            font-weight: bold;
+            font-variant: small-caps;
+            transition: all .75s;
+        }
+        .nav_menu ul li a:hover {
+            background-color: blue;
+            color: black;
+        }
+
+        .row {
+        display: -ms-flexbox; /* IE10 */
+        display: flex;
+        -ms-flex-wrap: wrap; /* IE10 */
+        flex-wrap: wrap;
+        padding: 0 4px;
+        }
+
+        footer {
+        clear: both;
+        width: 100%;
+        margin: 0;
+        padding: 3em 0;
+        background-color: #404040;
+        background-image: url("images/5dfab6ce855cc20c514e79f6.jfif");
+        border-top: 3px ridge #f0f0f5;
+        }
+        footer p {
+        color: white;
+        font-size: 90%;
+        font-weight: bold;
+        text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+        font-variant: small-caps;
+        text-align: center;
+        }
+
+        /* Create four equal columns that sits next to each other */
+        .column {
+        -ms-flex: 25%; /* IE10 */
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 4px;
+        }
+
+        .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+        }
+
+        /* Responsive layout - makes a two column-layout instead of four columns */
+        @media screen and (max-width: 800px) {
+        .column {
+            -ms-flex: 50%;
+            flex: 50%;
+            max-width: 50%;
+        }
+        }
+
+        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+        .column {
+            -ms-flex: 100%;
+            flex: 100%;
+            max-width: 100%;
+        }
+        }
+        </style>
+    </head>
+    <body>
+
+    <!-- Header -->
+        <header>
+        <a href="index.html"><img src="images/screen_shot_2018-11-27_at_11.27.53_am.png"></a>
+        <h1>Responsive Image Grid</h1>
+        <p>Resize the browser window to see the responsive effect.</p>
+        </header>
+        <nav id="mobilemenu"></nav>
+	<nav class="nav_menu">
+    	<ul>
+        	<li><a href="discography.html">Discography</a></li>
+        	<li><a href="videos.html">Videos</a></li>
+        	<li><a href="gallery.html">Gallery</a></li>
+        	<li><a href="maillist.html">Mailing List</a></li>
+    	</ul>
+	</nav>
+
+        <!-- Photo Grid -->
+        <div class="flex-container">
+        <div class="row"> 
+        <div class="column">
+            <img src="Travis Images/Travis1.jpg" style="width:100%">
+            <img src="Travis Images/Travis2.jpg" style="width:100%">
+            <img src="Travis Images/Travis3.jpg" style="width:100%">
+            <img src="Travis Images/Travis4.jpg" style="width:100%">
+            <img src="Travis Images/Travis5.jpg" style="width:100%">
+            <img src="Travis Images/Travis6.jpg" style="width:100%">
+            <img src="Travis Images/Travis7.jpg" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="Travis Images/Travis8.jpg" style="width:100%">
+            <img src="Travis Images/Travis9.jpg" style="width:100%">
+            <img src="Travis Images/Travis10.jpg" style="width:100%">
+            <img src="Travis Images/Travis11.jpg" style="width:100%">
+            <img src="Travis Images/Travis12.jpg" style="width:100%">
+            <img src="Travis Images/Travis13.jpg" style="width:100%">
+        </div>  
+        <div class="column">
+            <img src="Travis Images/Travis14.jpg" style="width:100%">
+            <img src="Travis Images/Travis15.jpg" style="width:100%">
+            <img src="Travis Images/Travis16.jfif" style="width:100%">
+            <img src="Travis Images/Travis17.jfif" style="width:100%">
+            <img src="Travis Images/Travis18.jpg" style="width:100%">
+            <img src="Travis Images/Travis19.jpg" style="width:100%">
+            <img src="Travis Images/Travis20.jpg" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="Travis Images/Travis21.jpg" style="width:100%">
+            <img src="Travis Images/Travis22.jpg" style="width:100%">
+            <img src="Travis Images/Travis23.jpg" style="width:100%">
+            <img src="Travis Images/Travis24.jpeg" style="width:100%">
+            <img src="Travis Images/Travis25.jpeg" style="width:100%">
+            <img src="Travis Images/Travis26.jpg" style="width:100%">
+        </div>
+        </div>
+        </div>
+        <footer>
+            <p>&copy; 2021 Jack Devoe Productions</p>
+        </footer>
+    </body>
+</html>
